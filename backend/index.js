@@ -20,3 +20,6 @@ app.listen(PORT, () => {
 });
 
 console.log("Variable de entorno MONGO_URI:", process.env.MONGO_URI);
+
+const User = require("./models/User");
+console.log("Modelo User cargado:", User);
